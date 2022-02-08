@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archievements</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="icon" href="https://i.postimg.cc/Y21vgFLX/achieve-logo.png">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <style>
+        body {
+            background-color:hsl(230,28%,12%);
+            font-family: "Asap", sans-serif;
+            color:#989898;
+            margin:10px;
+            font-size:16px;
+        }
+        #demo {
+            height:100%;
+            position:relative;
+            overflow:hidden;
+        }
+        .green{
+            background-color:#6fb936;
+        }
+        .thumb{
+                margin-bottom: 30px;
+        }     
+        .page-top{
+                margin-top:85px;
+        }
+        img.zoom {
+            width: 100%;
+            height: 200px;
+            border-radius:5px;
+            object-fit:cover;
+            transition: all .3s ease-in-out;
+        }     
+        .transition {
+            transform: scale(1.1);
+        }
+        .modal-header { 
+            border-bottom: none;
+        }
+    </style>
+    
+</head>
+<body>
+    
+ <!-- Page Content -->
+   <div class="container page-top">
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/fRFd5Nz5/Sparks-certificate.png" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/fRFd5Nz5/Sparks-certificate.png" class="zoom img-fluid">
+               
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/V69bY0jH/3-D-desgning.png"  class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/V69bY0jH/3-D-desgning.png" class="zoom img-fluid">
+            </a>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/KcNgwLc1/AI-and-ML.png" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/KcNgwLc1/AI-and-ML.png" class="zoom img-fluid ">
+            </a>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/hGTXrQ3P/C.png" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/hGTXrQ3P/C.png" class="zoom img-fluid ">
+            </a>
+        </div>
+        
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/Fzs1NWF7/cisco-IOT.png" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/Fzs1NWF7/cisco-IOT.png" class="zoom img-fluid ">
+            </a>
+        </div>
+        
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/kg8M33NT/Coursera-AI-certificate.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/kg8M33NT/Coursera-AI-certificate.jpg" class="zoom img-fluid ">
+            </a>
+        </div>
+        
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/vmsYGq3b/CV.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/vmsYGq3b/CV.jpg" class="zoom img-fluid ">
+            </a>
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/j5qR7Dp1/Coursera-python-certificate.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/j5qR7Dp1/Coursera-python-certificate.jpg" class="zoom img-fluid ">
+            </a>
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/Wzhj5Qb6/Coursera-HTML-certificate.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/Wzhj5Qb6/Coursera-HTML-certificate.jpg" class="zoom img-fluid ">
+            </a>
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/3RwHwPp5/Data-science-and-machine-learning.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/3RwHwPp5/Data-science-and-machine-learning.jpg" class="zoom img-fluid ">
+            </a>
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/7b8cScCL/digital-image-processing.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/7b8cScCL/digital-image-processing.jpg" class="zoom img-fluid ">
+            </a>
+        </div>
+        
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/XYVWhGJY/mastering-in-c-IEEEjpeg.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/XYVWhGJY/mastering-in-c-IEEEjpeg.jpg" class="zoom img-fluid ">
+            </a>
+        </div>    
+
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/nVycdhBX/free-code-camp.png" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/nVycdhBX/free-code-camp.png" class="zoom img-fluid ">
+            </a>
+        </div>    
+
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/nLhHsjbP/Graphics-design-Certificate-new.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/nLhHsjbP/Graphics-design-Certificate-new.jpg" class="zoom img-fluid ">
+            </a>
+        </div>    
+
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/W3DTnB4m/Guvi-Certification-398k14161129t-Pn3-Z7.png" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/W3DTnB4m/Guvi-Certification-398k14161129t-Pn3-Z7.png" class="zoom img-fluid ">
+            </a>
+        </div>    
+
+         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/CMqwfpXS/Great-learning.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/CMqwfpXS/Great-learning.jpg" class="zoom img-fluid ">
+            </a>
+        </div>  
+        
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/bJ1vf2X6/solo-learn-HTML.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/bJ1vf2X6/solo-learn-HTML.jpg" class="zoom img-fluid ">
+            </a>
+        </div>  
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/Vk31sLW2/python.png" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/Vk31sLW2/python.png" class="zoom img-fluid ">
+            </a>
+        </div>  
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/wB88846p/Wordpress-Udemy.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/wB88846p/Wordpress-Udemy.jpg" class="zoom img-fluid ">
+            </a>
+        </div>  
+
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a href="https://i.postimg.cc/GmnqbWsq/internship-completion-certificate.jpg" class="fancybox" rel="ligthbox">
+                <img  src="https://i.postimg.cc/GmnqbWsq/internship-completion-certificate.jpg" class="zoom img-fluid ">
+            </a>
+        </div>  
+   </div>
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none"
+      });
+      
+      $(".zoom").hover(function(){
+          
+          $(this).addClass('transition');
+      }, function(){
+          
+          $(this).removeClass('transition');
+      });
+  });
+</script>
+</body>
+</html>
