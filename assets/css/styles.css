@@ -830,8 +830,11 @@ img{
     }
     .home__content{
         grid-template-columns: .25fr 3fr;
-        padding-left: 25px;
+        margin-left: 20px;
         padding-bottom: 20px;
+    }
+    .home section{
+        margin-bottom: 35px;
     }
     .home__blob{
         width: 180px;
