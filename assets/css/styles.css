@@ -816,12 +816,11 @@ img{
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (min-width:368px) {
+@media screen and (max-width:369px) {
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-
     .nav__menu{
         padding: 2rem .25rem 4rem 0rem;
     }
@@ -830,7 +829,7 @@ img{
     }
     .home__content{
         grid-template-columns: .25fr 3fr;
-        margin-left: 20px;
+        margin-left: 30px;
         padding-bottom: 20px;
     }
     .home section{
@@ -840,8 +839,8 @@ img{
         width: 180px;
     }
     .about section{
-        margin-top: 20px;
         padding-top: 35px;
+        margin-top: 15px;
     }
     .skills__title{
         font-size: var(--normal-font-size);
