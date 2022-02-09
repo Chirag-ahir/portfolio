@@ -840,6 +840,7 @@ img{
         width: 180px;
     }
     .about section{
+        margin-top: 15px;
         padding-top: 35px;
     }
     .skills__title{
