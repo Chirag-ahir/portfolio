@@ -839,8 +839,7 @@ img{
         width: 180px;
     }
     .about section{
-        padding-top: 35px;
-        margin-top: 15px;
+        margin-top: 25px;
     }
     .skills__title{
         font-size: var(--normal-font-size);
@@ -891,7 +890,7 @@ img{
         margin-left: 20px;
     }
     .about_section{
-        margin-top: 20px;
+        margin-top: 25px;
     }
     .about__container,
     .skills__container,
@@ -953,6 +952,9 @@ img{
     .chane-theme{
         margin: 0;
     }
+    .home_section{
+        margin-left: 20px;
+    }
     .home__container{
         row-gap: 5rem;
     }
@@ -971,6 +973,9 @@ img{
     }
     .about__container{
         column-gap: 5rem;
+    }
+    .about section{
+        margin-top: 25px;
     }
     .about__img{
         width: 350px;
