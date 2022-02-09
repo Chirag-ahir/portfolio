@@ -257,6 +257,7 @@ img{
     grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
+    margin-left: 20px;
 }
 .home_social{
     display: grid;
@@ -299,6 +300,7 @@ img{
 .home__scroll-button{
     color: var(--first-color);
     transition: .3s;
+    margin-top: -30px;
 }
 .home__scroll-button:hover{
     transform: translateY(.25rem);
@@ -306,6 +308,7 @@ img{
 .home__scroll-mouse{
     font-size: 2rem;
     vertical-align: middle;
+    margin-left: 35px;
 }
 .home__scroll-name{
     font-size: var(--small-font-size);
@@ -315,6 +318,7 @@ img{
 }
 .home__scroll-arrow{
     font-size: 1.25rem;
+    vertical-align: middle;
 }
 /*==================== BUTTONS ====================*/
 .button{
@@ -889,7 +893,7 @@ img{
     .home_section{
         margin-left: 20px;
     }
-    .about_section{
+    .about section{
         margin-top: 25px;
     }
     .about__container,
